@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>You are <%= student.name %></h1>
+    <p>Your email address is: <%= student.email %></p>
+
+    <% if(student.age<18){ %>
+<h2>Vote nhi de skta</h2>
+    <% } else { %>
+        <h2>Vote de skta hai</h2>
+
+<%  } %>
+
+
+</body>
+</html>
